@@ -1,15 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/p5.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.3/addons/p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8" />
 
-  </head>
-  <body>
-    <main>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Meu portfólio</title>
+</head>
+
+<body>
+    <header class="container text-center">
+        <img src="FotoPerfil.png" alt="Foto de Perfil do José" class="rounded-circle" width="150" height=150
+            srcset="" />
+        <p class="lead">Olá, meu nome é José</p>
+        <h1>Eu faço jogos e artes</h1>
+        <p>
+            Sou estudante do ensino médio no Colégio CEIMM. Busco ingressar no
+            mercado de trabalho e adquirir experiência profissional. Tenho
+            conhecimentos em desenho, animação, edição e programação. Desenvolvo
+            projetos na área de jogos digitais, com foco em mecânicas 2D e 3D usando
+            GDScript, e aplico linguagens como HTML, CSS, JavaScript e Scratch em
+            projetos colegiais.
+
+            Recebi quatro premiações no concurso Agrinho (2022, 2023 e 2024), sendo
+            duas por redações e duas por projetos de programação. Participei de duas
+            competições de desenho, obtendo um prêmio e um certificado emitido pelo
+            Tribunal Regional do Trabalho da 6ª Região. Possuo certificações em inglês
+            até o nível 8 e sou fluente em leitura e compreensão de textos e áudios
+            em inglês.
+        </p>
+        <p>Minhas habilidades em programação</p>
+        <div>
+            <p class="badge bg-secondary">GDScript</p>
+            <p class="badge bg-secondary">HTML</p>
+            <p class="badge bg-secondary">CSS</p>
+            <p class="badge bg-secondary">JavaScript</p>
+            <p class="badge bg-secondary">Scratch</p>
+        </div>
+
+
+
+
+    </header>
+
+    <main class="container mt-5">
+        <h2>Meus projetos</h2>
+        <div class="row">
+            <!-- GameDev -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="GameDev2024.png" class="card-img-top" alt="Imagem de um dos projetos de jogo" />
+                    <div class="card-body">
+                        <h5 class="card-title">GameDev: programação visual
+                            Scratch e escrita GDScript
+                        </h5>
+                        <p class="card-text">
+                            Jogos autorais feitos no Scratch e no Godot (GDScript). Projetos (em Scratch) premiados, com
+                            sistemas complexos, trilha sonora original e visuais únicos.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal1">Veja
+                            o projeto</button>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Design -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Design.png" class="card-img-top"
+                        alt="Imagem de um dos projetos de design de aplicativo" />
+                    <div class="card-body">
+                        <h5 class="card-title">Design e UI/UX: interface de
+                            aplicação mobile e currículo
+                        </h5>
+                        <p class="card-text">
+                            Design criado no Figma com botões funcionais. Também tenho experiência com Canva e outros.
+                            Organização visual, navegação fluida e foco artístico.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal2">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Web -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="Web.png" class="card-img-top" alt="Imagem de um dos projetos de site" />
+                    <div class="card-body">
+                        <h5 class="card-title">Web: programação de sites em
+                            HTML, CSS e JS
+                        </h5>
+                        <p class="card-text">
+                            Projetos feitos do zero após cursos completos da Alura. Inclui sites com conteúdo
+                            multimídia,
+                            lógica de navegação interativa e estrutura responsiva.
+                        </p>
+                        <button type="button" class="btn btn-link" data-bs-toggle="modal" data-bs-target="#modal3">Veja
+                            o projeto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-    <script src="sketch.js"></script>
-  </body>
+
+    <!-- Modal-1 -->
+    <div class="modal" id="modal1" tabindex="-1">
+        <div class="modal-dialog modal-xl">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">GameDev: programação visual
+                        Scratch e escrita GDScript</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <h3>Ferramentas utilizadas:</h3>
+                    <div>
+                        <p class="badge bg-secondary">Scratch</p>
+                        <p class="badge bg-secondary">Godot</p>
+                        <p class="badge bg-secondary">ibisPaint X</p>
+                        <p class="badge bg-secondary">Pixel Studio</p>
+                        <p class="badge bg-secondary">FL Studio</p>
+                        <p class="badge bg-secondary">Blockbench</p>
+                        <p>
+                        <h4>Colheita e Comércio (2024):</h4> Jogo de simulação agrícola premiado no Agrinho.
+                        Possui sistema de cultivo, estamina, fome, minigames, loja com preços
+                        dinâmicos, inventário expansível e engine com 300+ blocos próprios. Inclui
+                        som, salvamento, trilha original e ciclo dia/noite.
+                        </p>
+                        <p>
+                        <h4>Jogo da Lixeira (2023):</h4> Jogo educativo feito no início da jornada. Ensina a
+                        separar lixo corretamente (papel, plástico, etc), com limite de tempo e
+                        vidas, com traduções para português e inglês. Foi o primeiro jogo premiado
+                        no Agrinho, abrindo caminho para os futuros projetos.
+                        </p>
+                        <p>
+                        <h4>Fear Motif (2025):</h4> Jogo em 3D estilo lowpoly com puzzles e plataforma.
+                        Projeto em desenvolvimento com câmera fixa, sistema de vida, coleta de itens
+                        e objetos interativos que ativam minigames em 2D.
+                        </p>
+                    </div>
+                    <div class="modal-body-images">
+                        <img src="GameDev2023.png" class="img-fluid w-10"
+                            style="position: absolute; left: 620px; top: 360px;"
+                            alt="Imagem representativa do projeto de 2023" />
+                        <img src="GameDev2025.png" class="img-fluid w-10"
+                            style="position: absolute; left: 620px; top: 570px;"
+                            alt="Imagem representativa do projeto de 2025" />
+                    </div>
+                    <img src="GameDev2024.png" class="img-fluid w-50" alt="Imagem representativa do projeto de 2024" />
+
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <a href="https://github.com/Mazutti-J/js-escrevenome">Ver projeto ao vivo</a>
+                <a href="https://github.com/Mazutti-J/js-escrevenome">Ver código do projeto</a>
+
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+
+    <footer class="container py-5">
+        <h2>Entre em contato</h2>
+        <div>
+            <i class="bi bi-github"></i> <a href="https://github.com/Mazutti-J">GitHub</a>
+        </div>
+
+        <div>
+
+            <i class="bi bi-google"></i> <a href="mailto:jose.mazutti@escola.pr.gov.br">Email</a>
+        </div>
+        <p class="my-5 text-center">© Copyright 2024. Produzido por José Francisco Mazutti</p>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
 </html>
